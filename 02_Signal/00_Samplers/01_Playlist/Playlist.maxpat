@@ -1579,6 +1579,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hkeycolor" : [ 0.0, 1.0, 0.047058823529412, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "kslider",
 					"numinlets" : 2,
@@ -1586,14 +1587,15 @@
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 434.0, 247.0, 765.0, 64.0 ],
-					"range" : 88
+					"range" : 88,
+					"selectioncolor" : [ 0.705882352941177, 0.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 80.153838801383969,
+					"clipheight" : 66.628199001153305,
 					"color" : [ 0.0, 1.0, 0.192156862745098, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
@@ -1603,7 +1605,7 @@
 								"id" : "u981021358",
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1.681792829801145,
+									"speed" : 0.35355339089023,
 									"loop" : 0
 								}
 
@@ -1615,7 +1617,7 @@
 								"id" : "u272004144",
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1.681792829801145,
+									"speed" : 0.35355339089023,
 									"loop" : 0
 								}
 
@@ -1627,7 +1629,7 @@
 								"id" : "u973003384",
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1.681792829801145,
+									"speed" : 0.35355339089023,
 									"loop" : 0
 								}
 
@@ -1639,19 +1641,31 @@
 								"id" : "u493011082",
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1.681792829801145,
+									"speed" : 0.35355339089023,
 									"loop" : 0
 								}
 
 							}
 , 							{
-								"absolutepath" : "bd+hh.aiff",
-								"filename" : "bd+hh.aiff",
+								"absolutepath" : "Snare 01.wav",
+								"filename" : "Snare 01.wav",
 								"filekind" : "audiofile",
-								"id" : "u057018006",
+								"id" : "u531011179",
 								"loop" : 0,
 								"content_state" : 								{
-									"speed" : 1.681792829801145,
+									"speed" : 0.35355339089023,
+									"loop" : 0
+								}
+
+							}
+, 							{
+								"absolutepath" : "Kick 01.wav",
+								"filename" : "Kick 01.wav",
+								"filekind" : "audiofile",
+								"id" : "u295011141",
+								"loop" : 0,
+								"content_state" : 								{
+									"speed" : 0.35355339089023,
 									"loop" : 0
 								}
 
@@ -2104,6 +2118,16 @@
 			"obj-32" : [ "number", "number", 0 ],
 			"obj-38" : [ "number[2]", "number[2]", 0 ],
 			"obj-43" : [ "number[1]", "number[1]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
@@ -2114,13 +2138,19 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ahkey.aiff",
-				"bootpath" : "C74:/media/legacy-tutorials/msp-tut",
-				"type" : "AIFF",
+				"name" : "Kick 01.wav",
+				"bootpath" : "C74:/packages/MaxIntroLessons/media",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bd+hh.aiff",
+				"name" : "Snare 01.wav",
+				"bootpath" : "C74:/packages/MaxIntroLessons/media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ahkey.aiff",
 				"bootpath" : "C74:/media/legacy-tutorials/msp-tut",
 				"type" : "AIFF",
 				"implicit" : 1
@@ -2139,7 +2169,7 @@
 			}
 , 			{
 				"name" : "samplecount.js",
-				"bootpath" : "~/Documents/01_Prj/00_Hybrid/00_YphnaGO/01_Subs/Xusione/02_Products/00_Originals/00_DIY/01_Assets/00_Audio/MAX-GOLD/01_Project/02_Signal/00_Samplers/01_Playlist",
+				"bootpath" : "~/Documents/01_Prj/00_Hybrid/00_YphnaGO/01_Subs/Xusione/02_Products/00_Originals/00_DIY/01_Assets/00_Audio/MAX-GOLD/01_Project/00_GitHub/02_Signal/00_Samplers/01_Playlist",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

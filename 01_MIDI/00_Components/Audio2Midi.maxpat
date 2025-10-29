@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 1192.0, 852.0 ],
+		"rect" : [ 34.0, 96.0, 1025.0, 852.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -909,6 +909,7 @@
 				"box" : 				{
 					"basictuning" : 440,
 					"clipheight" : 29.0,
+					"color" : [ 1.0, 0.250980392156863, 0.250980392156863, 1.0 ],
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "FemVoice.aif",
@@ -969,6 +970,7 @@
 
 					}
 ,
+					"selectioncolor" : [ 0.92156862745098, 0.329411764705882, 0.329411764705882, 1.0 ],
 					"timestretch" : [ 0 ]
 				}
 
@@ -1139,7 +1141,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 144.0, 430.81640625, 239.5, 430.81640625 ],
+					"midpoints" : [ 144.0, 419.5390625, 239.5, 419.5390625 ],
 					"order" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
@@ -1474,16 +1476,6 @@
 		"parameters" : 		{
 			"obj-14::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-14::obj-35" : [ "[5]", "Level", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
